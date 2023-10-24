@@ -15,9 +15,8 @@
     'use strict';
     /* when youtube loads video, if popup doesn't appear the modal hasn't been injected - so we'll target it's parent element */
     var popUP = document.querySelectorAll('ytd-popup-container')[0];
-    /* not really needed, but to screw with it, we'll change the class names */
-    popUP.className = "style-scopesing";
-    popUP.className += "ytd-appy";
+    /* not really needed, but to screw with it & remove some styling, we'll change the class names */
+    popUP.className = "style-scopesing ytd-appy";
     /* now we'll change the display of the parent element, so even if modal injected into page it wont display */
     popUP.style.display = "none";
 })();
