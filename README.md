@@ -19,4 +19,5 @@ https://www.tampermonkey.net/
 If you find youtube becomes 'locked up' (page unresponsive) it may be that this script is hiding another, different, modal window which looks like this.
 (just disabled script, and see if this modal is being triggered)
 ![youtube-3-video-warning](https://github.com/BlissMediaSolutions/Youtube-Adblock-Modal/assets/10906791/f7ec425a-d777-429e-9cd8-35385fc22925)
-While this script will also hide this modal, it wont deal with the 'lock' youtube is implementing.
+
+While this script will also hide this modal, it wont deal with the 'lock\block' youtube is implementing. (still investigating that)
